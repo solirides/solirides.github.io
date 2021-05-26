@@ -3,7 +3,7 @@ body {
 }
 
 .parallax {
-  background-image: url("backgrounds/background1.png");
+  background-image: url("/backgrounds/background1.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
