@@ -1,94 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+  <style>
 
-::-webkit-scrollbar {
-  width: 8px;
-}
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-::-webkit-scrollbar-track {
-  background: rgb(128, 128, 128, 1);
-  position: relative;
-  right: 10px;
-}
+  ::-webkit-scrollbar-track {
+    background: rgb(128, 128, 128, 1);
+    position: relative;
+    right: 10px;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: rgb(68, 68, 68, 0.6);
-  border-radius: 25px;
-}
+  ::-webkit-scrollbar-thumb {
+    background: rgb(68, 68, 68, 0.6);
+    border-radius: 25px;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  border-radius: 25px;
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 25px;
+  }
 
-html, body {
-  background-color: rgb(240, 240, 240, 0.2);
-  margin:0px;
-  height:100%
-}
+  html, body {
+    background-color: rgb(240, 240, 240, 0.2);
+    margin:0px;
+    height:100%
+  }
 
-.parallax {
-  /*background-image: url("https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
-  background-image: url("/backgrounds/background1.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: cover;
-}
+  .parallax {
+    /*background-image: url("https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
+    background-image: url("/backgrounds/background1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-h1 {
-  color: #1a1a1a;
-  font-family: Roboto, Helvecta;
-  font-size: 48px;
-  text-align: center;
-  font-weight: 300;
-}
+  h1 {
+    color: #1a1a1a;
+    font-family: Roboto, Helvecta;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+  }
 
-p {
-  color: #0a0a0a;
-  font-family: Roboto, Helvecta;
-  font-size: 18px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
-}
+  p {
+    color: #0a0a0a;
+    font-family: Roboto, Helvecta;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 
-.darktransparent {
+  .darktransparent {
     background-color: rgb(32, 32, 32, 0.8);color: rgb(240, 240, 240, 0.9);
-}
+  }
 
-.darktransparenttext {
+  .darktransparenttext {
     color: rgb(240, 240, 240, 0.9);
-}
+  }
 
 
-.animation {
-  width: 50%;
-  padding-top: 50%; /* 1:1 Aspect Ratio */
-  background-color: red;
-  animation-name: animation1;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  position: absolute;
-}
+  .animation {
+    width: 50%;
+    padding-top: 50%; /* 1:1 Aspect Ratio */
+    background-color: red;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+  }
 
-.container {
-  width: 20%;
-  padding-top: 20%; /* 1:1 Aspect Ratio */
-  box-sizing: border-box;
-  position: absolute;
-  background-position: center;
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: -100%;
+  .container {
+    width: 20%;
+    padding-top: 20%; /* 1:1 Aspect Ratio */
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -100%;
 
-}
+  }
 
-.animationtext {
+  .animationtext {
     padding: 0 0;
     margin: auto;
     left: 0;
@@ -96,36 +96,36 @@ p {
     text-align: center;
     bottom: 50%;
     position: absolute;
-}
+  }
 
-@keyframes animation1 {
-  0%   {background-color:#1a1a1a; left:0px; top:0px; border-radius: 50% 0px 50% 0px;}
-  25%  {background-color:#3a3a3a; left:50%; top:0px; border-radius: 0px 50% 0px 50%;}
-  50%  {background-color:#5a5a5a; left:50%; top:50%; border-radius: 50% 0px 50% 0px;}
-  75%  {background-color:#3a3a3a; left:0px; top:50%; border-radius: 0px 50% 0px 50%;}
-  100% {background-color:#1a1a1a; left:0px; top:0px; border-radius: 50% 0px 50% 0px;}
-}
+  @keyframes animation1 {
+    0%   {background-color:#1a1a1a; left:0px; top:0px; border-radius: 50% 0px 50% 0px;}
+    25%  {background-color:#3a3a3a; left:50%; top:0px; border-radius: 0px 50% 0px 50%;}
+    50%  {background-color:#5a5a5a; left:50%; top:50%; border-radius: 50% 0px 50% 0px;}
+    75%  {background-color:#3a3a3a; left:0px; top:50%; border-radius: 0px 50% 0px 50%;}
+    100% {background-color:#1a1a1a; left:0px; top:0px; border-radius: 50% 0px 50% 0px;}
+  }
 
-.header {
-  z-index: 100;
-  width: 100%;
-  height: 8%;
-  position: fixed;
-  background-color: rgb(240, 240, 240, 0.6);
-  border-radius: 0px 0px 8px 8px;
-}
+  .header {
+    z-index: 100;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    background-color: rgb(240, 240, 240, 0.6);
+    border-radius: 0px 0px 8px 8px;
+  }
 
-.headertext {
-  z-index: 100;
-  position: relative;
-  color: rgb(68, 68, 68, 1);
-  font-size: 40px;
-  font-family: Roboto, Helvecta;
-  font-weight: 200;
-  padding: 0;
-  margin: auto;
-  text-align: center;
-}
+  .headertext {
+    z-index: 100;
+    position: relative;
+    color: rgb(68, 68, 68, 1);
+    font-size: 40px;
+    font-family: Roboto, Helvecta;
+    font-weight: 200;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
 
 </style>
 
@@ -139,12 +139,12 @@ p {
 
 </head>
 <body>
-<!--
-<link rel="stylesheet" href="/styles/style.css">
+  <!--
+  <link rel="stylesheet" href="/styles/style.css">
 
 -->
 
-  <div class="parallax" style="height: 100%;">
+<div class="parallax" style="height: 100%;">
   <div class="darktransparent" style="height: 100%;position: relative;
   top: 35%;">
   <h1 class="darktransparenttext" style="margin-top: 0px;">Hello World</h1>
@@ -175,17 +175,17 @@ p {
     <br>
     E
   </p>
-  </div>
-  </div>
-  <div class="parallax" style="height: 100%;">
+</div>
+</div>
+<div class="parallax" style="height: 100%;">
   <div class="container">
-  <div class="animation">
-  <!--<p class="animationtext">
-  what
-  </p>-->
+    <div class="animation">
+      <!--<p class="animationtext">
+      what
+    </p>-->
   </div>
-  </div>
-  </div>
+</div>
+</div>
 
 </body>
 </html>
