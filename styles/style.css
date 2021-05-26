@@ -1,1 +1,23 @@
+body {
+  background-color: #eeeeee;
+}
 
+.parallax {
+  background-image: url("backgrounds/background1.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-family: "Roboto Light", Helvecta;
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  color: #0a0a0a;
+  font-family: Roboto, Helvecta;
+  font-size: 18px;
+}
